@@ -33,7 +33,20 @@
 
 <br>
 
-<p><img src="https://i.ibb.co/pBQrW1vx/lucoa-as-a-mermaid-properly-resized.png" alt=></p> <p class="right-aligned-text"><img src="kagaku-na-yatsurabutt.gif" alt=></p>
+<div class="container">
+  <img src="https://i.ibb.co/pBQrW1vx/lucoa-as-a-mermaid-properly-resized.png" alt=>
+  <img src="kagaku-na-yatsurabutt.gif" alt=>
+</div>
+    .container {
+  display: flex; /* Aligns child elements in a row by default */
+  gap: 10px;     /* Adds space between the images */
+  justify-content: center; /* Centers images within the container */
+}
+
+.container img {
+  width: auto;    /* Makes each image take up half the container's width */
+  height: auto;  /* Maintains aspect ratio */
+}
 
 <h2><i>March 2026</i></h2>
 
@@ -43,6 +56,7 @@
 
 </body>
 </html>
+
 
 
 
