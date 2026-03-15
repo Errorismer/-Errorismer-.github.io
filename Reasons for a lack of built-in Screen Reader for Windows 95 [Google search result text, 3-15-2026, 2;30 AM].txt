@@ -1,0 +1,28 @@
+The lack of a built-in screen reader in Windows 95 was not necessarily due to a lack of care, but rather a reflection of the severe technical limitations of the time, the rapid shift from text-based to graphical interfaces (GUI), and the nascent state of digital accessibility. While screen readers existed, making them work on a complex graphical interface like Windows 95 was an immense, uncharted engineering challenge. [1, 2, 3, 4]  
+Here are the primary reasons why Windows 95 didn’t have a built-in screen reader: 
+
+• The Shift from DOS to GUI: Before Windows 95, computers were largely text-based (DOS). Screen readers worked by reading text buffers, which was easy. Windows 95 replaced text with graphical "pixels," meaning there was no text to read—only images of text. Screen reader developers had to rebuild their tools from scratch to "draw" the screen and infer meaning. 
+• Engineering Limitations: Microsoft didn't initially understand how a GUI could be designed for accessibility from a user's perspective, making it difficult to implement. While they added some accessibility tools in 1995—including Sticky Keys, Filter Keys, and Toggle Keys—the technology to programmatically read a graphical screen, known as Active Accessibility (MSAA), was not finalized and added until 1997. 
+• Reliance on Third-Party Industry: In the mid-90s, accessibility was largely viewed as an "add-on" rather than a built-in OS feature. Companies like JAWS (Job Access With Speech) and Window-Eyes were developing specialized, often expensive, third-party screen readers for Windows. 
+• Pressure for Change: The lack of accessibility, particularly in Windows 3.1 and early 95, led to severe criticism from disability advocacy groups (such as the Massachusetts Commission for the Blind), who argued that the lack of access violated the Americans with Disabilities Act (ADA). [1, 3, 4, 5, 6, 7, 8, 9, 10, 11]  
+
+Did They Care? Microsoft did begin taking steps to address these concerns. In 1995, Microsoft hosted a "megasummit" for disability advocates, which led to a five-point plan for accessibility, including the development of MSAA, which was eventually built into Windows 98. [4, 12, 13]  
+However, the technology was not ready in time for the official release of Windows 95, resulting in a gap where blind users had to rely on costly third-party software, which often felt like "no access" at all, as one review described it. Microsoft did not introduce its own built-in screen reader, Narrator, until Windows 2000. [4, 5, 6, 14]  
+
+AI can make mistakes, so double-check responses
+
+[1] https://www.quora.com/Why-was-it-so-difficult-for-Microsoft-to-build-a-proper-GUI-before-Windows-95-with-all-the-resources-they-had-at-time
+[2] http://itd.athenpro.org/volume3/number4/jobs.html
+[3] https://knowbility.org/blog/2021/a-brief-history-of-screen-readers
+[4] https://afb.org/aw/1/4/16165
+[5] https://retrocomputing.stackexchange.com/questions/29652/what-were-earliest-attempts-to-make-computers-accessible
+[6] https://www.afb.org/aw/full-issue?id=14097
+[7] https://en.wikipedia.org/wiki/Windows_95
+[8] https://knowbility.org/blog/2021/a-brief-history-of-screen-readers
+[9] https://en.wikipedia.org/wiki/Microsoft_Active_Accessibility
+[10] https://abilitynet.org.uk/news-blogs/microsoft-narrator-turns-21-we-celebrate-coming-age
+[11] http://itd.athenpro.org/volume2/number2/jobs.html
+[12] https://nfb.org/images/nfb/publications/bm/bm98/bm980503.htm
+[13] https://nfb.org/images/nfb/publications/bm/bm98/bm980503.htm
+[14] https://www.audioeye.com/post/digital-accessibility/
+
